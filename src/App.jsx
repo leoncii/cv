@@ -6,6 +6,7 @@ function App () {
   return (
     <>
       <Hero />
+      <h1>Wath popdog.com cards :D! 🧨</h1>
     </>
   )
 }
