@@ -166,3 +166,16 @@ a {
 }
 
 /* CARDS END*/
+
+
+
+@media only screen  and (max-width: 769px) {
+  .card_image {
+    flex-direction: column-reverse;
+  }
+  .card_image > div {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+}

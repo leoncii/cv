@@ -26,3 +26,21 @@
  width: 80px;
  padding-right: 20px;
 }
+
+@media only screen and (max-width: 769px){
+ .NextJS {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+  margin: 0;
+  margin-top: 2rem;
+ }
+
+ .ReactSvg {
+  grid-column: 4 / 5;
+  grid-row: 5 / 6;
+ }
+
+ .GitHubActions {
+  padding: 0;
+ }
+}
