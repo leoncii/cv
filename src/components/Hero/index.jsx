@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles.css'
 
 import { Earth } from '../svg-components/Earth'
 import { Mars } from '../svg-components/Mars'
