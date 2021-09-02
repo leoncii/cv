@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export function Jupiter (props) {
+export function Jupiter(props) {
   return (
     <svg
       className='Jupiter'
