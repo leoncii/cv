@@ -69,4 +69,70 @@ button {
 
 .backgrond {
   width: 100%;
+  object-fit: cover;
+  height: -webkit-fill-available;
+  object-fit: cover;
 }
+
+/* CARDS*/
+.cards {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  flex-direction: row;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex:0 1 0%; 
+  max-width: 600px;
+  justify-content: center;
+  width: auto;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  font-weight: bolder;
+  letter-spacing: -1px;
+}
+h2 span {
+  color:#f84443;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 125%;
+}
+
+.anchors {
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  padding: .4rem .8rem;
+  border-radius: 25px;
+  background-color: #f84443;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+picture {
+  display: inline-block;
+}
+
+.earth_card {
+  width: 300px;
+}
+/* CARDS END*/

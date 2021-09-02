@@ -11,7 +11,9 @@ export function Hero () {
   return (
     <div className='hero'>
       <div className='planets_container'>
-        <Earth />
+        <Earth
+          className='Earth'
+        />
         <Mars />
         <Venus />
         <Saturn />
@@ -20,7 +22,7 @@ export function Hero () {
       </div>
       <img
         className='backgrond'
-        src='./1.1.1.jpg'
+        src='./1.1.3.jpg'
         alt='Esto es el fondo op ue hice para mi cv'
       />
     </div>

@@ -1,12 +1,11 @@
 import * as React from 'react'
 
-export function Earth (props) {
+export function Earth ({ className = 'Earth' }) {
   return (
     <svg
-      className='Earth'
+      className={className}
       viewBox='-55 -55 656 657'
       fill='none'
-      {...props}
     >
       <path
         fillRule='evenodd'
