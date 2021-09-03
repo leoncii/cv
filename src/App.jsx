@@ -10,12 +10,12 @@ function App () {
   return (
     <>
       <Hero />
-      <h1>Watch popdog.com cards :D! 🧨</h1>
+      <h1>Ejémplos</h1>
       <div className='cards_container'>
-        {/* <section className='cards'>
+        <section className='cards'>
           <AndresCom />
           <NelsonCom />
-        </section> */}
+        </section>
       </div>
 
     </>

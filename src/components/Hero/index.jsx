@@ -24,12 +24,12 @@ export function Hero () {
       <picture className='space_container'>
         <img
           className='floorEdit'
-          src='./floorEDIT.png'
+          src='./floorEdit01.png'
           alt='Esto es el fondo op ue hice para mi cv'
         />
         <img
           className='spaceEdit'
-          src='./spaceEDIT.png'
+          src='./spaceEdit01.png'
           alt=''
         />
       </picture>

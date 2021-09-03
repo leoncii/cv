@@ -1,33 +1,25 @@
 .hero {
  width: 100%;
  position: relative;
- height: 100vh;
+ overflow: hidden;
+ min-height: 100vh;
 }
 .space_container {
   position: relative;
-  animation: back 8s linear infinite alternate-reverse;
 }
 
 .spaceEdit {
   position: absolute;
-  width: 115vw;
+  height: 100vh;
   z-index: -10;
-  animation: space 25s linear infinite alternate;
-}
-@keyframes space {
-  0% {
-    width: 100vw;
-  }
-  100% {
-    width: 115vw;
-  }
 }
 
 .floorEdit {
   position: absolute;
+  height: 100vh;
+  object-fit: contain;
   width: 100vw;
   z-index: 100;
-  top: 0;
 }
 .planets_container {
  position: absolute;
