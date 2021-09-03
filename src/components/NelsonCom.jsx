@@ -8,7 +8,6 @@ import { GitHubActions } from './Icons/GitHubActions'
 export function NelsonCom () {
   return (
     <div className='card'>
-      <h2 className='subTitle'><span>Nelson</span> Peluqueria Spa</h2>
       <picture className='card_image'>
         <div>
           <NextJS />
@@ -23,6 +22,7 @@ export function NelsonCom () {
         />
       </picture>
       <div>
+        <h2 className='subTitle'><span>Nelson</span> Peluqueria Spa</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et perspiciatis nam sapiente iste fugiat doloribus numquam, aut quod quo explicabo minima quos exercitationem consectetur aliquam perferendis dolore, excepturi dolor quaerat.</p>
         <div className='anchors'>
           <a href='#'>GitHub</a>
