@@ -1,10 +1,34 @@
 .hero {
  width: 100%;
  position: relative;
- overflow-x: hidden;
-
+ height: 100vh;
+}
+.space_container {
+  position: relative;
+  animation: back 8s linear infinite alternate-reverse;
 }
 
+.spaceEdit {
+  position: absolute;
+  width: 115vw;
+  z-index: -10;
+  animation: space 25s linear infinite alternate;
+}
+@keyframes space {
+  0% {
+    width: 100vw;
+  }
+  100% {
+    width: 115vw;
+  }
+}
+
+.floorEdit {
+  position: absolute;
+  width: 100vw;
+  z-index: 100;
+  top: 0;
+}
 .planets_container {
  position: absolute;
  display: grid;
@@ -31,6 +55,7 @@
  grid-column: 2 / 3;
  box-shadow: 6px 3px 13px 1px #6e47eea2;
  border-radius: 50%;
+ z-index: 1;
  filter: drop-shadow(-7px -7px 20px #ffa8e99b);
 }
 
@@ -68,7 +93,6 @@
  object-fit: cover;
  animation: back 8s linear infinite alternate-reverse;
 }
-
 
 @media only screen and (max-width: 476px){
  .backgrond {

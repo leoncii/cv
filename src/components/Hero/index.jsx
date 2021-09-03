@@ -21,11 +21,18 @@ export function Hero () {
         <Neptune />
         <Jupiter />
       </div>
-      <img
-        className='backgrond'
-        src='./1.1.3.jpg'
-        alt='Esto es el fondo op ue hice para mi cv'
-      />
+      <picture className='space_container'>
+        <img
+          className='floorEdit'
+          src='./floorEDIT.png'
+          alt='Esto es el fondo op ue hice para mi cv'
+        />
+        <img
+          className='spaceEdit'
+          src='./spaceEDIT.png'
+          alt=''
+        />
+      </picture>
     </div>
   )
 }
