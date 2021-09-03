@@ -59,13 +59,21 @@
   height: 100%;
 }
 
-h2 {
+.title {
+  font-weight: bold;
+  font-size: 3.3rem;
+  letter-spacing: -.6px;
+  text-align: center;
+  color: #cc3535;
+}
+
+.subTitle {
   margin-bottom: 1.5rem;
   font-size: 3rem;
   font-weight: bolder;
   letter-spacing: -1px;
 }
-h2 span {
+.subTitle span {
   color:#f84443;
 }
 
@@ -91,8 +99,6 @@ a {
 }
 
 /* CARDS END*/
-
-
 
 @media only screen  and (max-width: 769px) {
   .card_image {

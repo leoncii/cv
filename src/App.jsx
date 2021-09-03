@@ -10,7 +10,7 @@ function App () {
   return (
     <>
       <Hero />
-      <h1>Ejémplos</h1>
+      <h2 className='title'>Ejemplos</h2>
       <div className='cards_container'>
         <section className='cards'>
           <AndresCom />
