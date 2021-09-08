@@ -1,5 +1,3 @@
-import * as React from 'react'
-
 export function Earth ({ className = 'Earth' }) {
   return (
     <svg

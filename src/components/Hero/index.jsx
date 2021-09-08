@@ -1,4 +1,3 @@
-import React from 'react'
 import './styles.css'
 
 import { Earth } from '../svg-components/Earth'
@@ -12,6 +11,7 @@ export function Hero () {
   return (
     <div className='hero'>
       <div className='planets_container'>
+
         <Earth
           className='Earth'
         />
@@ -20,11 +20,17 @@ export function Hero () {
         <Saturn />
         <Neptune />
         <Jupiter />
+        <img className='cloud cloud0' src='./cloud.svg' alt='' />
+        <img className='cloud cloud1' src='./cloud.svg' alt='' />
+
+        <img className='cloud cloud2' src='./cloud.svg' alt='' />
+        <img className='cloud cloud3' src='./cloud.svg' alt='' />
+        <img className='cloud cloud4' src='./cloud.svg' alt='' />
       </div>
-      <picture className='space_container'>
+      <div className='space_container'>
         <img
           className='floorEdit'
-          src='./floorEdit01.png'
+          src='./floorEdit3.png'
           alt='Esto es el fondo op ue hice para mi cv'
         />
         <img
@@ -32,7 +38,7 @@ export function Hero () {
           src='./spaceEdit01.png'
           alt=''
         />
-      </picture>
+      </div>
     </div>
   )
 }

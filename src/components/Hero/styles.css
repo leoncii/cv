@@ -1,11 +1,53 @@
 .hero {
  width: 100%;
  position: relative;
- overflow: hidden;
  min-height: 100vh;
 }
 .space_container {
+  width: inherit;
+  height: 100vh;
+}
+
+.cloud {
+  z-index: 999;
+}
+.cloud0 {
+ position: relative;
+ grid-row: 5 / 9;
+ grid-column: 1 / 4;
+ z-index: 999;
+ left: -30px;
+ filter: drop-shadow(0px 9px 10px #ffa8e99b);
+}
+
+.cloud1 {
+ grid-row: 8 / 11;
+ grid-column: 2 / 5;
+ z-index: 999;
+ filter: drop-shadow(-7px -7px 20px #ffa8e99b);
+}
+
+.cloud2 {
+ grid-row: 8 / 11;
+ grid-column: 7 / 10;
+ z-index: 999;
+ filter: drop-shadow(-7px -7px 20px #ffa8e99b);
+}
+
+.cloud3 {
+ grid-row: 5 / 8;
+ grid-column: 8 / 10;
+ z-index: 999;
+ filter: drop-shadow(-7px -7px 20px #ffa8e99b);
+}
+
+.cloud4 {
   position: relative;
+ grid-row: 7 / 9;
+ grid-column: 8 / 11;
+ z-index: 999;
+ right: -50px;
+ filter: drop-shadow(-7px -7px 20px #ffa8e99b);
 }
 
 .spaceEdit {
@@ -23,6 +65,12 @@
   width: 100vw;
   z-index: 100;
 }
+
+.floorEdit::after {
+  content: '';
+  background-image: url('./cloud.svg');
+}
+
 .planets_container {
  position: absolute;
  display: grid;
@@ -38,6 +86,7 @@
  margin: auto;
  grid-row: 1 / 4;
  grid-column: 8 / 9;
+ padding: 3vmin;
  box-shadow: 4px -4px 5px 1px #ff41df71,
              inset -22px 20px 20px 0px #c434f021;
  border-radius: 50%;

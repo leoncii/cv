@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { NextJS } from './Icons/Nextjs'
 import { ReactSvg } from './Icons/ReactSvg'
 import { Js } from './Icons/Js'

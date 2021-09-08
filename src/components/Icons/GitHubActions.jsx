@@ -1,5 +1,3 @@
-import React from 'react'
-
 export function GitHubActions () {
   return (
     <svg
