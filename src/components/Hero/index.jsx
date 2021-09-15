@@ -11,10 +11,7 @@ export function Hero () {
   return (
     <div className='hero'>
       <div className='planets_container'>
-
-        <Earth
-          className='Earth'
-        />
+        <Earth />
         <Mars />
         <Venus />
         <Saturn />
@@ -22,13 +19,12 @@ export function Hero () {
         <Jupiter />
         <img className='cloud cloud0' src='./cloud.svg' alt='' />
         <img className='cloud cloud1' src='./cloud.svg' alt='' />
-
         <img className='cloud cloud2' src='./cloud.svg' alt='' />
-        <img className='cloud cloud3' src='./cloud.svg' alt='' />
-        <img className='cloud cloud4' src='./cloud.svg' alt='' />
+        {/* <img className='cloud cloud3' src='./cloud.svg' alt='' />
+        <img className='cloud cloud4' src='./cloud.svg' alt='' /> */}
       </div>
       <div className='space_container'>
-        <img
+        {/* <img
           className='floorEdit'
           src='./floorEdit3.png'
           alt='Esto es el fondo op ue hice para mi cv'
@@ -37,7 +33,7 @@ export function Hero () {
           className='spaceEdit'
           src='./spaceEdit01.png'
           alt=''
-        />
+        /> */}
       </div>
     </div>
   )
