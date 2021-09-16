@@ -2,8 +2,9 @@ export function Earth ({ className = 'Earth' }) {
   return (
     <svg
       className={className}
-      viewBox='-55 -55 656 657'
+      viewBox='25 25 456 457'
       fill='none'
+      width='40px'
     >
       <path
         fillRule='evenodd'

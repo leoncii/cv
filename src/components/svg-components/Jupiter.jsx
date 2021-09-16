@@ -4,6 +4,7 @@ export function Jupiter (props) {
       className='Jupiter'
       viewBox='0 0 274 264'
       fill='none'
+      width='75px'
       {...props}
     >
       <path
