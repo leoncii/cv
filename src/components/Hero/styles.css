@@ -31,30 +31,6 @@
   width: 300px;
 }
 
-.cloud {
-  z-index: 999;
-}
-
-.cloud0 {
- position: relative;
- grid-row: 9 / 11;
- grid-column: 1 / 3;
- left: -60px;
- filter: drop-shadow(0px 9px 10px #ffa8e99b);
-}
-
-.cloud1 {
- grid-row: 9 / 11;
- grid-column: 2 / 3;
- filter: drop-shadow(-7px -7px 20px #ffa8e99b);
-}
-
-.cloud2 {
- grid-row: 8 / 10;
- grid-column: 1 / 2;
- z-index: 999;
- filter: drop-shadow(-7px -7px 20px #ffa8e99b);
-}
 
 .planets_container {
  position: absolute;
@@ -139,24 +115,30 @@
     line-height: .85;
     text-align: center;
   }
-  .cloud1 {
-    grid-row: 8 / 11;
-    grid-column: 3 / 5;
- }
-  .cloud0 {
-    grid-row: 9 / 11;
-    grid-column: 2 / 5;
- }
- .cloud2 {
-    grid-row: 8 / 10;
-    grid-column: 1 / 4;
- }
-.Earth {
+  .Earth {
     grid-row: 9 / 10;
     grid-column: 2 / 3;
     z-index: 1000;
- }
-.planets_container {
+  }
+  .Venus {
+    grid-row: 10;
+    grid-column: 5;
+  }
+  .Neptune {
+   grid-column: 8 / 9;
+   grid-row: 10;
+  }
+  .Mars {
+   grid-row: 10;
+   grid-column: 9;
+  }
+  .Jupiter {
+   grid-column:9 / 10;
+   grid-row: 8 / 10;
+  }
+  
+  
+  .planets_container {
     filter: blur(1px);
  }
 }

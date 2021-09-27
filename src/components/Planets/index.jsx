@@ -4,6 +4,7 @@ import { Venus } from '../svg-components/Venus'
 import { Saturn } from '../svg-components/Saturn'
 import { Neptune } from '../svg-components/Neptune'
 import { Jupiter } from '../svg-components/Jupiter'
+import { Clouds } from '../Clouds'
 
 export default function PlanetsAndClounds () {
   return (
@@ -14,9 +15,15 @@ export default function PlanetsAndClounds () {
       <Saturn />
       <Neptune />
       <Jupiter />
-      <img className='cloud cloud0' src='./cloud.svg' alt='' />
-      <img className='cloud cloud1' src='./cloud.svg' alt='' />
-      <img className='cloud cloud2' src='./cloud.svg' alt='' />
+      <Clouds
+        cloud='cloud0'
+      />
+      <Clouds
+        cloud='cloud2'
+      />
+      <Clouds
+        cloud='cloud1'
+      />
     </div>
   )
 }
