@@ -82,12 +82,14 @@ p {
 
 a {
   text-decoration: none;
-  padding: .4rem .8rem;
-  border-radius: 25px;
+  padding: .35rem .7rem;
+  border-radius: 21px;
   background-color: #f84443;
   color: #fff;
   font-size: 1.2rem;
   font-weight: 550;
+  width: 75px;
+  text-align: center;
 }
 
 /* CARDS END*/

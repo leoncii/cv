@@ -1,0 +1,13 @@
+.footer {
+ background-color: #101010;
+ height: 450px;
+ color: #fff;
+ display: grid;
+ place-content: center;
+}
+
+.footer h5 {
+ font-weight: 400;
+ letter-spacing: .35px;
+ text-shadow: 0  0px 3px rebeccapurple;
+}

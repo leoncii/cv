@@ -1,17 +1,16 @@
 import './styles.css'
 
-import Planets from '../Planets'
+import PlanetsAndClounds from '../Planets'
 import { Anchor } from '../Anchor'
 
 export function Hero () {
   return (
     <div className='hero'>
-      <Planets />
       <div className='hero_description'>
         <div>
           <h1>Leonardo Torrico</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum tenetur voluptas explicabo sequi accusamus in et ea porro. Doloremque cupiditate eaque reiciendis quaerat dicta. Amet nesciunt asperiores expedita omnis?</p>
-          <div>
+          <p>Desarrollador de aplicaciónes web y escritorio</p>
+          <div className='anchors'>
             <Anchor
               href=''
               text='Linkedin'
@@ -24,11 +23,13 @@ export function Hero () {
         </div>
         <picture>
           <img
+            loading='lazy'
             src='./googleAna.png'
             alt=''
           />
         </picture>
       </div>
+      <PlanetsAndClounds />
     </div>
   )
 }

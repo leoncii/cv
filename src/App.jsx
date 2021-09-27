@@ -1,6 +1,7 @@
 import './App.css'
 import { Hero } from './components/Hero'
 import { CardProject } from './components/CardProject'
+import { Footer } from './components/Footer'
 
 import './icons.css'
 
@@ -35,6 +36,7 @@ function App () {
         </section>
       </div>
 
+      <Footer />
     </>
   )
 }

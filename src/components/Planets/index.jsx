@@ -5,7 +5,7 @@ import { Saturn } from '../svg-components/Saturn'
 import { Neptune } from '../svg-components/Neptune'
 import { Jupiter } from '../svg-components/Jupiter'
 
-export default function Planets () {
+export default function PlanetsAndClounds () {
   return (
     <div className='planets_container'>
       <Earth />
