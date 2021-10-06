@@ -9,29 +9,36 @@ function App () {
   return (
     <>
       <Hero />
-      <h2 className='title'>Sites</h2>
+      <h2 className='title'>Aplicaciónes</h2>
       <div className='cards_container'>
         <section className='cards'>
           <CardProject
             title='Andres Gym'
-            description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et perspiciatis nam sapiente iste fugiat doloribus numquam, aut quod quo explicabo minima quos exercitationem consectetur aliquam perferendis dolore, excepturi dolor quaerat.'
+            description='Una web personalizada para un gymnasio club con ejercicios funcionales y asesoramiento en nutrición deportiva. '
             img='./andres.jpeg'
             github='https://github.com/leoncii/andres'
             website='https://andrestorrico.com'
           />
           <CardProject
             title='Nelson Peluqueria Spa'
-            description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et perspiciatis nam sapiente iste fugiat doloribus numquam, aut quod quo explicabo minima quos exercitationem consectetur aliquam perferendis dolore, excepturi dolor quaerat.'
+            description='Una web para una peluqueria con mas de 16mil seguidores en Facebookb que incorpora google analytics, tag manager para una mejor gestion de marketing y atención al cliente.'
             img='./nelson.jpeg'
             github='https://github.com/leoncii/spa-nelson'
             website='https://nelson-peluqueria.com'
           />
           <CardProject
             title='Simple Pimpumpam'
-            description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et perspiciatis nam sapiente iste fugiat doloribus numquam, aut quod quo explicabo minima quos exercitationem consectetur aliquam perferendis dolore, excepturi dolor quaerat.'
+            description='Un blog personal, sobre los temas que estoy interesado.'
             img='./simple.jpeg'
             github='https://github.com/leoncii/simple-pimpumpam.com'
             website='https://simple-pimpumpam.com'
+          />
+          <CardProject
+            title='View Cryptocurrencies Market '
+            description='Una aplicación para ver los precios actuales de las criptomonedas.'
+            img='./coins.jpeg'
+            github='https://github.com/leoncii/coins'
+            website='https://play.google.com/store/apps/details?id=com.LTB_144.TradingView'
           />
         </section>
       </div>

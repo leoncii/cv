@@ -12,112 +12,38 @@
   height: 100%;
 }
 
-.card {
-  display: flex;
-  justify-content: center;
-  min-width: 100%;
-  flex-direction: column;
-  min-height: 100vh;
-  align-items: center;
-  margin-bottom: 96px;
-}
-
-.card_image {
-  position: relative;
-  width: 100%;
-  flex-direction: column-reverse;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card_image > div {
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 145%;
-  z-index: 9;
-}
-
-.card_bg {
-  width: inherit;
-}
-
-.earth_card {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.title {
-  font-weight: bold;
-  font-size: 3.3rem;
-  letter-spacing: -.6px;
-  text-align: center;
-  color: #cc3535;
-}
-
-.subTitle {
-  margin-bottom: 1.5rem;
-  font-size: 3rem;
-  font-weight: bolder;
-  letter-spacing: -1px;
-}
-.subTitle span {
-  color:#f84443;
-}
-
-p {
-  font-size: 1.2rem;
-  line-height: 125%;
-}
-
-.anchors {
-  display: flex;
-  flex-flow: wrap;
-  gap: 1rem;
-}
-
 a {
+  display: flex;
   text-decoration: none;
   padding: .35rem .7rem;
   border-radius: 21px;
   background-color: #f84443;
   color: #fff;
   font-size: 1.2rem;
+  height: 30px;
   font-weight: 550;
-  width: 75px;
-  text-align: center;
+  width: 125px;
+  align-items: center;
+  justify-content: center;
+}
+
+a:hover {
+  animation: hover .4s ease forwards;
+}
+
+@keyframes hover {
+  0% {
+    background-color:#f84443;
+  }
+  100% {
+    background-color: #a13333;
+  }
 }
 
 /* CARDS END*/
 
-@media only screen  and (min-width: 769px) {
-  .card_image > div {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    width: 135%;
-    position: absolute;
-  }
-}
-
 @media only screen  and (min-width: 1280px) {
   .cards {
     max-width: max-content;
-  }
-  .card {
-    flex-direction: row;
-    margin-bottom: 0;
-    max-width: 1200px;
-  }
-  .card > div {
-    max-width: 480px;
-  }
-  .card_image {
-    margin-right: 100px;
-    width: 91%;
   }
 }

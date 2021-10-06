@@ -1,8 +1,10 @@
+import './styles.modules.css'
+import { Anchor } from '../Anchor'
 import { NextJS } from '../Icons/Nextjs'
 import { ReactSvg } from '../Icons/ReactSvg'
 import { Js } from '../Icons/Js'
 import { GitHubActions } from '../Icons/GitHubActions'
-import { Anchor } from '../anchor'
+import { Image } from '../Image'
 
 export function CardProject ({ description, github, title, website, img }) {
   const [t0, t1, t2, ...restOfTitle] = title.split(' ')
@@ -15,8 +17,8 @@ export function CardProject ({ description, github, title, website, img }) {
           <Js />
           <GitHubActions />
         </div>
-        <img
-          className='card_bg'
+        <Image
+          classname='card_bg'
           src={img}
           alt=''
         />
@@ -31,7 +33,7 @@ export function CardProject ({ description, github, title, website, img }) {
           />
           <Anchor
             href={website}
-            text='Site'
+            text='Ver'
           />
         </div>
       </div>
