@@ -14,21 +14,21 @@ function App () {
         <section className='cards'>
           <CardProject
             title='Andres Gym'
-            description='Una web personalizada para un gymnasio club con ejercicios funcionales y asesoramiento en nutrición deportiva. '
+            description='Una web para un gymnasio que ofrece servicios de entrenamiento personal y asesoramiento '
             img='./andres.jpeg'
             github='https://github.com/leoncii/andres'
             website='https://andrestorrico.com'
           />
           <CardProject
             title='Nelson Peluqueria Spa'
-            description='Una web para una peluqueria con mas de 16mil seguidores en Facebookb que incorpora google analytics, tag manager para una mejor gestion de marketing y atención al cliente.'
+            description='Una web para una peluqueria de 17k seguidores en Facebookb que incorpora google analytics, tag manager para una mejor gestion de marketing y atención al cliente.'
             img='./nelson.jpeg'
             github='https://github.com/leoncii/spa-nelson'
             website='https://nelson-peluqueria.com'
           />
           <CardProject
             title='Simple Pimpumpam'
-            description='Un blog personal, sobre los temas que estoy interesado.'
+            description='Un blog personal simple, sobre los temas que estoy interesado.'
             img='./simple.jpeg'
             github='https://github.com/leoncii/simple-pimpumpam.com'
             website='https://simple-pimpumpam.com'
