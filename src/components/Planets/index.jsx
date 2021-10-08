@@ -7,6 +7,8 @@ import { Jupiter } from '../svg-components/Jupiter'
 
 import { Image } from '../Image'
 
+import './planets.css'
+
 export default function PlanetsAndClounds () {
   return (
     <div className='planets_container'>

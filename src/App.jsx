@@ -43,6 +43,12 @@ function App () {
         </section>
       </div>
 
+      <div className='meh'>
+        <h1 className='title'>Sobre mí</h1>
+        <p> ¡Hola! 👋, Me llamo<strong> Leonardo Torrico </strong>desarrollador de JavasCript Soy alguien abierto, confiable y me gusta ayudar a otras personas.</p>
+        <p>siempre me a gustado saber como funcionan las cosas y sobre todo las tecnologias que usamos todos los dias como fue cambiando la manera de vivir de las personas y como evoluciono en la historia de la humanidad para que lleguemos a estar todos conectados con tan solo presionar un clic 🙂.</p>
+      </div>
+
       <Footer />
     </>
   )

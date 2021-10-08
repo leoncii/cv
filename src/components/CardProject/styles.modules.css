@@ -70,7 +70,9 @@ width: inherit;
  font-size: 3.3rem;
  letter-spacing: -.6px;
  text-align: center;
+ padding-top: 120px;
  color: #cc3535;
+ margin-bottom: 0px;
 }
 
 .subTitle {

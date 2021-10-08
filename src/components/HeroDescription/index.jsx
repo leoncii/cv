@@ -11,16 +11,17 @@ export function HeroDescription () {
           <Anchor
             href=''
             text='Linkedin'
+            className='linkedin_anchor'
           />
           <Anchor
             href=''
-            text='Descargar CV'
+            text='Resumen'
           />
         </div>
       </div>
       <Image
         className='o'
-        src='./yo.jpg'
+        src='./leo.png'
         alt=''
       />
     </div>

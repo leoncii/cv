@@ -31,106 +31,12 @@
   width: 300px;
 }
 
-.planets_container {
- position: relative;
- display: grid;
- width: 100%;
- height: 100%;
- justify-items: center;
- background-image: linear-gradient(180deg, #efc9ea00 8%, #b1f1ef00 33%, #f7f2b900 54%, #e3efd000 84%, #fafbfdff 100%);
- align-items: center;
- grid-template-columns: repeat(10, 1fr);
- grid-template-rows: repeat(10, 1fr);
-}
-
-.planets_container::before {
-  content: '';
+.bg {
   position: absolute;
-  bottom: 93px;
-  left: -15vw;
-  width: 100%;
-  background-color: transparent;
-  transform: rotate(0deg);
-  box-shadow: 250px 0px 0px 105px rgb(17, 17, 17);
+  right: 0;
+  width: 60%;
+  z-index: 1;
 }
-.planets_container::after {
-  content: '';
-  position: relative;
-  bottom: -523px;
-  width: 100px;
-  left: 350px;
-  height: 210px;
-  background-color: transparent;
-}
-
-.Mars {
- grid-row: 9 / 10;
- grid-column: 8 / 9;
- filter: blur(1px);
- width: 45px;
-}
-
-.Earth {
- grid-row: 7 / 8;
- grid-column: 2 / 3;
- border-radius: 50%;
- z-index: 1;
- filter: blur(1px);
- width: 25px;
-}
-
-.venus_container {
-  grid-row: 5 / 11;
-  grid-column: 3;
-  filter: blur(1px);
-  width: 35px;
-  animation: y-axis 6s infinite cubic-bezier(.35,.21,.35,.21);
-}
-
-.Venus {
-  animation: x-axis 6s infinite ease ;
-}
-
-@keyframes x-axis {
-  50% {
-    transform: translateX(200px);
-  }
-}
-@keyframes y-axis {
-  50% {
-    transform: translateY(155px);
-    filter: blur(0);
-  }
-}
-/*animation: venus duration timing-function delay iteration-count direction fill-mode;*/
-.Saturn {
- grid-row: 8 / 10;
- grid-column: 2 / 3;
- width: 50px;
- filter: blur(1px);
-}
-
-.Neptune {
- grid-column: 6;
- grid-row: 8 / 11;
- filter: blur(1px);
-}
-
-.Jupiter {
- grid-column: 9 / 10;
- grid-row: 8 / 9;
- filter: blur(1px);
- border-radius: 50%;
- margin-right: 10px;
-}
-
-.backgrond {
- width: 115%;
- height: -webkit-fill-available;
- object-fit: cover;
- animation: back 8s linear infinite alternate-reverse;
-}
-
 
 @media only screen and (max-width: 768px) {
   .hero_description {
@@ -164,9 +70,4 @@
    grid-column:9 / 10;
    grid-row: 8 / 10;
   }
-  
-  
-  .planets_container {
-    filter: blur(1px);
- }
 }

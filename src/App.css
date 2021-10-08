@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 48px;
 }
 /* CARDS*/
 .cards {
@@ -29,6 +28,11 @@ a {
 
 a:hover {
   animation: hover .4s ease forwards;
+}
+
+.meh {
+  width: 620px;
+  margin: 0 auto;
 }
 
 @keyframes hover {

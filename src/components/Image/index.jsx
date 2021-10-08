@@ -1,4 +1,4 @@
-import './styles.modules.css'
+import './styles.css'
 
 export function Image ({ classname, src, alt = '' }) {
   return (
