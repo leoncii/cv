@@ -1,8 +1,14 @@
-import './module.styles.css'
+import './styles.css'
 
-export function Anchor ({ href, text = '', className = null }) {
+export function Anchor ({
+  href,
+  text = '',
+  download = null,
+  className = null
+}) {
   return (
     <a
+      download={download !== null ? download : ''}
       href={href}
       className={className}
       target='_blank'

@@ -1,0 +1,13 @@
+
+.meh {
+ max-width: 620px;
+ margin: auto;
+ height: 90vh;
+}
+
+.meh h1 {
+ padding: 0 0 3rem 0;
+}
+.meh p {
+ margin-top: 2rem;
+}
