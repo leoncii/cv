@@ -6,10 +6,18 @@
  background: linear-gradient(to left, #f09ef0, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  background-image: linear-gradient(360deg, #fad9f6 14%, #d3e2ff 22%,#f5e7b8 31%, #f7f2b9 54%, #cdd8bb 85%, #fafbfd 100%);
 }
+
 .leo {
   padding: 0rem .35rem 0 0;
-  border-radius: 16px;
+  border-radius: 16p1x;
   height: 35px;
+}
+
+.cvleo {
+  background-color: rgb(245, 231, 184);
+  border-radius: 50%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .hero_description {

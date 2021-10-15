@@ -1,8 +1,10 @@
 
 .meh {
  max-width: 620px;
- margin: auto;
+ padding: 0px 16px;
+ margin: 0 auto;
  height: 90vh;
+ margin-bottom: 10vh;
 }
 
 .meh h1 {
@@ -10,4 +12,10 @@
 }
 .meh p {
  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 468px) {
+ .meh {
+  margin-bottom: 35vh;
+ }
 }

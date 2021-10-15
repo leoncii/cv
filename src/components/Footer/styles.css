@@ -2,6 +2,7 @@
  background-color: #101010;
  height: 450px;
  color: #fff;
+ position: relative;
  display: grid;
  place-content: center;
 }
@@ -10,4 +11,19 @@
  font-weight: 400;
  letter-spacing: .35px;
  text-shadow: 0  0px 3px rebeccapurple;
+}
+
+#whatsapp {
+ position: fixed;
+ background: url('./whatsapp.svg') no-repeat center;
+ border-radius: 50%;
+ margin: 28px 0;
+ bottom: 0;
+ z-index: 10;
+ right: 0;
+ border: none;
+}
+#whatsapp img {
+ width: 50px;
+ border-radius: 50%;
 }

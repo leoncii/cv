@@ -2,7 +2,7 @@ import './styles.css'
 import { Anchor } from '../Anchor'
 import { Image } from '../Image'
 
-export function CardProject ({ description, github, title, website, img }) {
+export function CardProject ({ description, github, title, website, img, button = null }) {
   const [t0, t1, t2, ...restOfTitle] = title.split(' ')
 
   return (
@@ -26,6 +26,12 @@ export function CardProject ({ description, github, title, website, img }) {
             href={website}
             text='Web'
           />
+          {
+            button && <Anchor
+              href={button.href}
+              text={button.text}
+                      />
+          }
         </div>
       </div>
     </div>

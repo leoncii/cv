@@ -1,8 +1,8 @@
-import './App.css'
 import { Hero } from './components/Hero'
 import { CardProject } from './components/CardProject'
 import { Footer } from './components/Footer'
 import { Meh } from './components/Meh'
+import './App.css'
 
 function App () {
   return (
@@ -33,9 +33,13 @@ function App () {
             website='https://simple-pimpumpam.com'
           />
           <CardProject
-            title='View Cryptocurrencies Market '
+            title='Crypto Market '
             description='Aplicación hecha en React Native que ve los precios actuales de las criptomonedas y diferenciarlas con otros Brokers.'
             img='./coins.jpeg'
+            button={{
+              href: 'https://play.google.com/store/apps/details?id=com.LTB_144.CryptoMarket',
+              text: 'Play Store'
+            }}
             github='https://github.com/leoncii/coins'
             website='https://play.google.com/store/apps/details?id=com.LTB_144.TradingView'
           />

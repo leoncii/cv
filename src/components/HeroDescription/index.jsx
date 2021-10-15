@@ -21,8 +21,8 @@ export function HeroDescription () {
         </div>
       </div>
       <Image
-        className='o'
-        src='./leo.png'
+        classname='cvleo'
+        src='./CV0PSD.webp'
         alt=''
       />
     </div>
