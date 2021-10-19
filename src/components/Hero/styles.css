@@ -54,8 +54,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .bg {
-  }
   .hero_description {
     flex-direction: column-reverse;
   }
@@ -98,5 +96,8 @@
   .hero_description h1 span {
     display: block;
     padding-bottom: .35rem;
+  }
+  .Earth {
+    grid-row: 10;
   }
 }
